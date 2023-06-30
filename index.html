@@ -5,21 +5,12 @@
 	<meta name="author" content="Michel Alexis">
 	<meta name="description" content"mathematics="" homepage"="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
-         img {
-			max-width:350px;
-	 }
-            td {
-            padding: 5px 10px 0px 0px;
-		    vertical-align: top;
-         }
-	/* td:first-child{
-		 min-width: 100px;
-	 }
-	 td:nth-child(2){
-		 min-width: 200px;
-	 }*/
-      </style>
+	<script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("b.html"); 
+    });
+    </script> 
     </head>
     <body>
 <!--img src="student_sketch.jpg" alt="A student's portrait of me." style="width:300px;">
@@ -35,7 +26,7 @@ How my students see me. -->
 	<p>Email: [Last name][First letter of first name]@mcmaster.ca (e.g. John Doe --&gt; doej@mcmaster.ca).</p>
 	<h3>Research Papers</h3>
 
-	<div w3-include-html="papers.html"></div>
+	<div id="papers"></div>
 <h3>Smaller Notes/Expository articles</h3>
 
 

@@ -17,8 +17,12 @@
     </head>
     	<body>
 		<h1>CV, Michel Alexis</h1>
-		Last updated June 29, 2023
-		<p></p>
+		Last updated <div id="sudo"></div>
+		<script>
+        		/* Function to use lastModified property */
+			let x = document.lastModified;
+            		document.getElementById("sudo").innerHTML = x;
+    		</script>
 
 		<div style="border:1px solid gray; background-color:#f8f9fa; padding:5px; width:290px;">
 			<b>Table of Contents</b>

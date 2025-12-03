@@ -1,4 +1,16 @@
 .paper-comment {
-  /* display: table-cell; */
-  display: none;
+  display: table-cell; 
+  /* display: none; */
+}
+
+.paper-name{
+
+}
+
+.paper-title {
+  font-weight:600;
+}
+
+.paper-coauthors {
+  font-size: 0.8em;
 }

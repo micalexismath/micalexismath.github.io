@@ -9,7 +9,11 @@ overflow-wrap:break-word;
 }
 
 .paper-name{
+}
 
+.paper-name-head{
+  min-width:40%;
+  overflow-wrap:break-word;
 }
 
 .paper-title {

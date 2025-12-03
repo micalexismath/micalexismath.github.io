@@ -3,6 +3,11 @@
   /* display: none; */
 }
 
+.paper-comment-head {
+max-width:35%;
+overflow-wrap:break-word;
+}
+
 .paper-name{
 
 }

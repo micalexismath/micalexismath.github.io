@@ -1,4 +1,4 @@
 .paper-comment {
-  display: table-cell;
-  /* display: none; */
+  /* display: table-cell; */
+  display: none;
 }
